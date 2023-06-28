@@ -1,5 +1,7 @@
 from random import randint
 
+
+
 def exclamacoes(titulo):
     
     tamanho_do_titulo = len(titulo) 
@@ -7,6 +9,7 @@ def exclamacoes(titulo):
     print("-" * tamanho_do_titulo)
     print(titulo)
     print("-" * tamanho_do_titulo)
+
 
 
 soma_dos_pontos = 0
