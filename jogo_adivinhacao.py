@@ -39,7 +39,6 @@ while True:
             resposta = str(input("Perdao, Responda corretamente SIM/NAO: ")).upper()
             continue
        
-        
     if resposta == "SIM":
         continue
     elif resposta == "NAO":
