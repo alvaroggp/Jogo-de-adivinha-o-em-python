@@ -1,6 +1,6 @@
 from random import randint
 
-def titulos(titulo):
+def exclamacoes(titulo):
     
     tamanho_do_titulo = len(titulo) 
 
@@ -14,7 +14,7 @@ vezes_jogadas = 0
 
 while True:
     pontuacao = 10    
-    titulos("Bem vindo ao jogo de adivinhação")
+    exclamacoes("Bem vindo ao jogo de adivinhação")
 
     numero_certo = randint(1, 5)
     numero_do_usuario = int(input('Digite um valor de 1 a 5: '))
@@ -46,5 +46,5 @@ while True:
         break 
     
 media = soma_dos_pontos / vezes_jogadas 
-titulos(f"Muito obrigado por jogar, sua media de pontos foi {media:.2f}")
+exclamacoes(f"Muito obrigado por jogar, sua media de pontos foi {media:.2f}")
         
