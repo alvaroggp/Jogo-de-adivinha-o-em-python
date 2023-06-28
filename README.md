@@ -2,5 +2,5 @@
 Jogo de adivinhação em pyhon  
 
 ```
-tal programa foi feito por diversao 
+tal programa foi feito por diversâo 
 ```
