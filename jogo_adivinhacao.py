@@ -8,7 +8,7 @@ vezes_jogadas = 0
 # Chamando o titulo
 formatador("Bem vindo ao jogo de adivinhação")
 
-# loop de central do jogo
+# loop central do jogo
 while True:
     
     pontuacao = 10 
